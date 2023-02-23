@@ -1,0 +1,31 @@
+.At{
+    display: flex;
+    padding: 0 100px;
+    margin: 30px 0;
+    margin-left: 50px;
+    color: var(--black);
+}
+
+
+.ttit{
+    color: var(--black);
+}
+.tsubt{
+    color: var(--orange);
+}
+
+.tEle{
+    background-color: red;
+}
+
+@media screen and (max-width: 800px){
+    .At{
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+        margin: 0;
+        
+        color: var(--black);
+    }
+    
+}
